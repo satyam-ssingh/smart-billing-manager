@@ -181,6 +181,3 @@ smart-billing-manager/
 ├── package.json
 ├── package-lock.json
 └── README.md
-
----
-

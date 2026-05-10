@@ -128,7 +128,7 @@ This project is built using:
 # How To Run This Project
 
 ## Step 1: Set Execution Policy (Windows PowerShell)
--- Open Windows PowerShell as Administrator and run this command:  Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+-- Open Windows PowerShell as Administrator and run this command:   - Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 - Press Enter if asked for permission.
 
 ## Step 2: Create React App

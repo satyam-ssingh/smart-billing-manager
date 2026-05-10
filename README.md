@@ -161,3 +161,41 @@ npm install
 # Step 4 - Start React Project
 npm start
 
+# Step 1: Set Execution Policy (Windows PowerShell)
+- Open Windows PowerShell as Administrator and run this command:
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+- Press Enter if asked for permission.
+
+# Step 2: Create React App
+Open VS Code Terminal and run:
+npx create-react-app smart-billing-manager
+
+# Step 3: Confirm Installation
+When it asks for confirmation, type:
+y
+
+# Step 4: Go to Project Folder
+- Run this command:
+cd smart-billing-manager
+
+# Step 5: Start the Project
+- Run:
+npm start
+
+# Step 6: Open in Browser
+- After running the command, the project will automatically open in your default browser.
+
+# Step 7: Open Project in VS Code Explorer
+- On the left side panel in VS Code:
+- Click on smart-billing-manager
+
+# Step 8: Go to Source Folder
+- Open the src folder
+
+# Step 9: Edit Main File
+- Click on App.js
+- Delete all existing code
+- Paste your main billing system code
+
+# Step 10: View Final Output
+- Go back to the browser — your Smart Billing Manager will be running successfully.

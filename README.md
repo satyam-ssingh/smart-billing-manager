@@ -127,7 +127,7 @@ This project is built using:
 
 # Folder Structure
 
-'''bash
+```bash
 smart-billing-manager/
 │
 ├── public/

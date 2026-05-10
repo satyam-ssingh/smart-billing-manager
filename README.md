@@ -128,7 +128,7 @@ This project is built using:
 # How To Run This Project
 
 ## Step 1: Set Execution Policy (Windows PowerShell)
--- Open Windows PowerShell as Administrator and run this command:   - Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+-- Open Windows PowerShell as Administrator and run this command:  Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 - Press Enter if asked for permission.
 
 ## Step 2: Create React App
@@ -147,11 +147,11 @@ This project is built using:
 -- After running the command, the project will automatically open in your default browser.
 
 ## Step 7: Open Project in VS Code Explorer
--- On the left side panel in VS Code:
--- Click on smart-billing-manager
+- On the left side panel in VS Code:
+- Click on smart-billing-manager
 
 ## Step 8: Go to Source Folder
--- Open the src folder
+- Open the **src** folder
 
 ## Step 9: Edit Main File
 - Click on App.js

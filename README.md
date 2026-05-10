@@ -1,70 +1,163 @@
-# Getting Started with Create React App
+# Smart Billing Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Smart Billing Manager is a modern billing and invoice management web application built using React.js.  
+The main goal of this project is to simplify billing operations with a clean user interface and smooth user experience.
 
-## Available Scripts
+This project allows users to create bills, calculate GST automatically, manage invoice details, and generate printable bills. The application is fully responsive and works properly on desktop, tablet, and mobile devices.
 
-In the project directory, you can run:
+The project was created as a frontend practice project to improve React.js skills and understand real-world billing system workflows.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Preview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The application includes:
 
-### `npm test`
+- Billing Dashboard
+- Product & Invoice Management
+- GST Calculation
+- Bill Summary
+- Printable Invoice Layout
+- Responsive User Interface
+- Local Storage Support
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+# Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Smart Billing System
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Users can create bills dynamically by adding product details such as:
+- Product Name
+- Quantity
+- Price
+- GST Percentage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The system automatically calculates:
+- Total Price
+- GST Amount
+- Final Bill Amount
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## GST Calculation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+GST calculation is handled automatically inside the application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Features include:
+- Real-time GST calculation
+- Automatic bill total update
+- Percentage-based tax support
+- Accurate invoice summary
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Invoice Generation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The project supports professional invoice generation.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Invoice section includes:
+- Customer details
+- Product summary
+- GST breakdown
+- Total amount
+- Printable invoice layout
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Dashboard & Analytics
 
-### Analyzing the Bundle Size
+The dashboard provides:
+- Billing overview
+- Sales information
+- Revenue summary
+- Quick access sections
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Local Storage Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The application stores data using browser local storage.
 
-### Advanced Configuration
+Benefits:
+- Data remains after refresh
+- No database required
+- Faster frontend storage handling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Responsive Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The UI is fully responsive and optimized for:
+- Desktop
+- Laptop
+- Tablet
+- Mobile devices
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Form Validation
+
+Basic form validation has been added to prevent:
+- Empty fields
+- Invalid input values
+- Incorrect bill entries
+
+---
+
+## Print & PDF Support
+
+The project supports:
+- Print invoice feature
+- PDF-ready bill layout
+- Clean invoice formatting
+
+---
+
+# Technologies Used
+
+This project is built using:
+
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+
+---
+
+# Folder Structure
+
+```bash
+smart-billing-manager/
+│
+├── public/
+│
+├── src/
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   ├── index.css
+│   ├── components/
+│   └── assets/
+│
+├── package.json
+├── package-lock.json
+└── README.md
+
+---
+
+# How To Run This Project
+
+```bash
+# Step 1 - Clone Repository
+git clone https://github.com/satyam-ssingh/smart-billing-manager.git
+
+# Step 2 - Open Project Folder
+cd smart-billing-manager
+
+# Step 3 - Install Dependencies
+npm install
+
+# Step 4 - Start React Project
+npm start
+

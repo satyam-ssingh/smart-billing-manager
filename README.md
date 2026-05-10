@@ -146,41 +146,23 @@ smart-billing-manager/
 
 ---
 
-# How To Run This Project
-
-```bash
-# Step 1 - Clone Repository
-git clone https://github.com/satyam-ssingh/smart-billing-manager.git
-
-# Step 2 - Open Project Folder
-cd smart-billing-manager
-
-# Step 3 - Install Dependencies
-npm install
-
-# Step 4 - Start React Project
-npm start
+## How To Run This Project
 
 # Step 1: Set Execution Policy (Windows PowerShell)
-- Open Windows PowerShell as Administrator and run this command:
-Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-- Press Enter if asked for permission.
+- Open Windows PowerShell as Administrator and run this command:  Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+# Press Enter if asked for permission.
 
 # Step 2: Create React App
-Open VS Code Terminal and run:
-npx create-react-app smart-billing-manager
+- Open VS Code Terminal and run:  npx create-react-app smart-billing-manager
 
 # Step 3: Confirm Installation
-When it asks for confirmation, type:
-y
+- When it asks for confirmation, type:  y
 
 # Step 4: Go to Project Folder
-- Run this command:
-cd smart-billing-manager
+- Run this command:  cd smart-billing-manager
 
 # Step 5: Start the Project
-- Run:
-npm start
+- Run:  npm start
 
 # Step 6: Open in Browser
 - After running the command, the project will automatically open in your default browser.
